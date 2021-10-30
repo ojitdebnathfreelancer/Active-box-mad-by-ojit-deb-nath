@@ -67,7 +67,7 @@ nav{
 }
 
 .nacColor{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(43, 46, 74, 0.95);
     animation: navcolor 0.4s linear;
     -webkit-animation: navcolor 0.4s linear;
 }
