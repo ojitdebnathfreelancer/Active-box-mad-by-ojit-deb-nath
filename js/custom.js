@@ -7,6 +7,18 @@ $(document).ready(function(){
         else{
             $(".back-top").fadeOut();
         }
+
+        if(scrolling > 100){
+            $("nav").addClass("navfixed");
+        }
+
+        if(scrolling > 700){
+            $("nav").addClass("nacColor");
+        }
+
+        else{
+            $("nav").removeClass("nacColor");
+        }
     });
 
     $(".back-top").click(function(){
